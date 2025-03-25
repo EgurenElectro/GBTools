@@ -1,3 +1,5 @@
+#include "GBClock.h"
+
 void gb::Clock::start() 
 {
     startTime = millis();
