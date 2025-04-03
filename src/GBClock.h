@@ -11,11 +11,15 @@ namespace gb
 
     void start();
 
-    void stop();
+    unsigned long stop();
+
+    unsigned long restart();
 
     bool check(unsigned long mark);
 
     unsigned long elapsed();
+
+    bool started();
 
   private:
 
