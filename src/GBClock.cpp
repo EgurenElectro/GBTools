@@ -1,4 +1,5 @@
 #include "GBClock.h"
+#include "GBStringUtils.h"
 
 void gb::Clock::start() 
 {
@@ -36,4 +37,3 @@ bool gb::Clock::started()
 {
     return running;
 }
-
